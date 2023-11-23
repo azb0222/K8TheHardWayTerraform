@@ -1,11 +1,3 @@
-variable "gcp_project" { 
-    default = "settingupk8thehardway"
-}
-
-variable "gcp_region" { 
-    default = "us-central1"
-}
-
 #change to use this 
 variable "gcp_project_configuration" { 
     description = "contains the GCP Project configuration"
@@ -20,7 +12,7 @@ variable "gcp_project_configuration" {
 }
 
 variable "gcp_svc_key" { 
-    "./auth/settingupk8thehardway-733f6118197a.json"
+   default = "./auth/settingupk8thehardway-733f6118197a.json"
 }
 
 //can move the above variables into a key 

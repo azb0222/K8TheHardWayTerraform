@@ -1,6 +1,6 @@
 terraform {
  backend "gcs" {
-   bucket  = "BUCKET_NAME" #variables are not allowed in backend configuration
+   bucket  = "k8-the-hard-way-terraform-state-bucket" #variables are not allowed in backend configuration
    prefix  = "terraform/state"
  }
 }
