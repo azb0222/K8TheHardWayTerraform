@@ -1,0 +1,10 @@
+TODO: 
+- create deployment script 
+  (ie. run terraform apply, run terraform output, grab ip, etc. )
+
+- need to setup a bucket to store terraform state file 
+
+- use workspaces for testing something before applying it in the final prod code
+- use templatefile(<PATH>, <VARS>) for all the installation you have to do for each server 
+- look at how to manage secrets in the book, and change to have your credentails.json file do that 
+- use provisioners to setup ansible 

@@ -1,0 +1,1 @@
+#can use terraform outputs to connect dependencies parts of the Terraform project with other parts 
