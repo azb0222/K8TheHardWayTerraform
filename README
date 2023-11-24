@@ -8,3 +8,7 @@ TODO:
 - use templatefile(<PATH>, <VARS>) for all the installation you have to do for each server 
 - look at how to manage secrets in the book, and change to have your credentails.json file do that 
 - use provisioners to setup ansible 
+- have two branches, one using ansible for those who want to keep learning https://www.digitalocean.com/community/tutorials/how-to-use-ansible-with-terraform-for-configuration-management
+
+
+- make some sort of way to manage global variables so that i do not have to pass in the same project name variable to every single module 
